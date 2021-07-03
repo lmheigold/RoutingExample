@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'RoutingExample';
+  public currentPage: string = "";
+  public isMenuCollapsed = true;
+
 }
